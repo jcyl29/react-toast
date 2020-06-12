@@ -1,0 +1,148 @@
+.app {
+    text-align: center;
+}
+
+.app-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.app-body {
+    margin-top: -300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.toast-buttons {
+    display: flex;
+}
+
+.toast-buttons button {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100px;
+    height: 50px;
+    margin: 0 10px;
+    border: none;
+    outline: none;
+}
+
+.select {
+    display: flex;
+    width: 30%;
+    margin-top: 10px;
+}
+
+.position-select {
+    background-color: inherit;
+    color: #fff;
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+}
+
+.success {
+    background-color: #5cb85c;
+}
+
+.danger {
+    background-color: #d9534f;
+}
+
+.info {
+    background-color: #5bc0de;
+}
+
+.warning {
+    background-color: #f0ad4e;
+}
+
+input[type=checkbox] + label {
+    display: block;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox] + label:before {
+    content: "\2714";
+    border: 0.1em solid #fff;
+    border-radius: 0.2em;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    padding-top: 0.1em;
+    padding-left: 0.2em;
+    padding-bottom: 0.3em;
+    margin-right: 1em;
+    vertical-align: bottom;
+    color: transparent;
+    transition: .2s;
+}
+
+input[type=checkbox] + label:active:before {
+    transform: scale(0);
+}
+
+input[type=checkbox]:checked + label:before {
+    background-color: #4aa1f3;
+    border-color: #4aa1f3;
+    color: #fff;
+}
+
+label {
+    font-size: 14px;
+}
+
+input[type=text] {
+    margin: 15px 0;
+    padding: 15px 10px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    height: 1px;
+    background-color: #282c34;
+    font-size: 14px;
+    color: #fff;
+}
+
+.disabled {
+    cursor: none;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.btn-disable {
+    cursor: none;
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+::-webkit-input-placeholder {
+    color: #acabab;
+    font-style: italic;
+}
+
+:-ms-input-placeholder {
+    color: #acabab;
+    font-style: italic;
+}
+
+::placeholder {
+    color: #acabab;
+    font-style: italic;
+}
