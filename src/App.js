@@ -4,8 +4,8 @@ import errorIcon from './assets/error.svg'
 import infoIcon from './assets/info.svg'
 import warningIcon from './assets/warning.svg'
 import './App.css'
-import './components/toast/Toast.css'
-import Toast from './components/toast/Toast'
+import './components/Toast/Toast.css'
+import Toast from './components/Toast/Toast'
 import Button from './components/button/Button'
 
 const BUTTON_PROPS = [
